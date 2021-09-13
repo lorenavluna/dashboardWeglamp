@@ -1,21 +1,22 @@
-
+import PropTypes from "prop-types"
 import {DomeImage, DomesList} from "../../config/index"
 import Dome from "../Dome/Dome"
-import "./Domes"
+import "./Domes.css"
 
 export default function Domes (){
     return (
         <section className ="domes">
-            
+            <h2> Contamos con  {DomesList.length} Domos disponibles al momento </h2>
                 {DomesList.map(dome => {
                       return (
                        <Dome 
-                                   id = {DomesList.id}
-                                   Destination ={DomesList.destination}
-                                   title ={DomesList.name}
-                                   pax ={DomesList.pax}
-                                   price ={DomesList.prize}
-                                  DomeImage = {DomeImage} 
+                                 
+                                   Destination ={dome.destination}
+                                   title ={dome.name}
+                                   pax ={dome.pax}
+                                   price ={dome.prize}
+                                  DomeImage = {dome.DomeImage} 
+                                  key={`dome-${dome.id}`}
                             />
                  ) } )}
             

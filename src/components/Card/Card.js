@@ -1,10 +1,10 @@
 import "./style.css"
 
 
-export function Card (props){
+export function Card ({children}){
     return(
         <div className = "card">
-                {props.children}
+                {children}
         </div>
     )
 }

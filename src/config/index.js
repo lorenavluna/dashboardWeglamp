@@ -1,19 +1,9 @@
-export const DomeName = "Standart"
 
-export const title= "dashboard weglamp"
-export const subtitle = "domos"
-export const DomeImage= "domo.jpg"
-export const DomeColor = "orange"
+export const title= "Dashboard weglamp"
+export const subtitle = "Domos"
+
 export const DomesList = [
     
-        {
-            "id": 12,
-            "destination": "tigre",
-            "name": "suite",
-            "pax": "4",
-            "prize": "10000",
-            "image":  "domo.jpg",
-        },
           {
             "id": 14,
             "destination": "Tigre",
