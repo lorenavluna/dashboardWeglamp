@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"
+
 import {DomeImage, DomesList} from "../../config/index"
 import Dome from "../Dome/Dome"
 import "./Domes.css"

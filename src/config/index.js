@@ -10,7 +10,7 @@ export const DomesList = [
             "name": "suite",
             "pax": "4",
             "prize": "15000",
-            "image":  "domo.jpg",
+            "image":  "logo.png",
           },
           {
             "id": 15,

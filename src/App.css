@@ -38,8 +38,8 @@
 }
 
 nav{
-  background-color: #9fa0a1;
-  width: 300px;
+  background-color: red;
+  width: 200px;
 }
 main{
   display: flex;
