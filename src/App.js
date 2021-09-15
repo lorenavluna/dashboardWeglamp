@@ -1,6 +1,7 @@
 import Sidebar from './components/Sidebar/Sidebar';
 import Domes from './components/DomesList/Domes';
-import index, { subtitle, title } from './config/index';
+import Home from './components/Home/Home';
+import index, { title, logo } from './config/index';
 import './App.css';
 
 
@@ -9,10 +10,11 @@ function App() {
   return (
         <main >
               <Sidebar 
+                 logo ={logo}
                   title={title}
-                  subtitle={subtitle}/>
+                  />
 
-              <Domes/>
+              <Home/>
          </main> 
     
   );
