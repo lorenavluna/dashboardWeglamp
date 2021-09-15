@@ -36,7 +36,7 @@
 
 .box:hover{
     transform: translate(0, -10px);
-    box-shadow: 10px 10px 100px rgb(235, 38, 38);
+    box-shadow: 10px 10px 100px pink;
 }
 
 .bigBox{
