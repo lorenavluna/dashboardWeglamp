@@ -4,19 +4,15 @@ import "./Home.css"
 
 export default function Home (){
     return (
-        <section className ="home">
-          <article>
-            <h2 className = "box">  <a  href="#"> Domos</a>  </h2>
-            <h2 className = "box"> <a href="#"> Usuarios</a> </h2>
-            <h2 className = "box"> <a href="#"> Destino</a> </h2>
-          
-          </article>
-          <article>
-              <h2> 
-              <h2 className = "bigBox">  <a  href="#"> Domo</a>  </h2>
-            <h2 className = "bigBox"> <a href="#"> Usuarios</a> </h2>
-            <h2 className = "bigBox"> <a href="#"> Destinos</a> </h2>
-            </h2>
+        <section className="home">
+            <article className="top-bar">
+                <ContainerSmall><h2>Domos</h2></ContainerSmall>
+                <ContainerSmall><h2>Usuarios</h2></ContainerSmall>
+                <ContainerSmall><h2>Destinos</h2></ContainerSmall>
+            </article>
+            <article className="bottom-bar">
+                <ContainerBig><h2>Domo más reciente</h2></ContainerBig>
+                <ContainerBig><h2>Domos por destino</h2></ContainerBig>
             </article>
         </section>
     )

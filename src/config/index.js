@@ -1,7 +1,7 @@
 
-export const title= "Dashboard weglamp"
+export const title= "Dashboard Weglamp"
 
-export const logo = "domo.jpg"
+export const logo = "logo.png"
 export const DomesList = [
     
           {
