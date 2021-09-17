@@ -24,16 +24,11 @@ export default function Domes(){
     return(
         <section className="domes">
             <h2>{loading ? <>Cargando...</> : domesAmountMessage}</h2>
-                {DomesList.map(dome => {
-                    return(<Dome 
-                        Destination={dome.destination}
-                        title={dome.name}
-                        pax={dome.pax}
-                        price={dome.prize}
-                        DomeImage={dome.DomeImage}
-                        key={`dome-${dome.id}`}
-                    />)
-                })}
+            {domesList.map(dome => {
+                return(<Dome
+                    domeDetailURL={dome.detail}
+                />)
+            })}
         </section>
     );
 }
