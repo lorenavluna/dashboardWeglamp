@@ -1,16 +1,15 @@
+div.ContainerBig{
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 50%;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    text-align: center;
+}
 
-    .containerBig{
-        border: 2px solid red;
-        padding: 10px;
-        margin: 10px;
-        height: 300px;
-        width: 200px;
-        transition: all 0.2s ease-in;
-        cursor: pointer;
-        text-align: center;
-    }
-    
-    .containerBig:hover{
-        transform: translate(0, -10px);
-        box-shadow: 10px 10px 100px pink;
-    }
+div.ContainerBig:hover{
+    transform: translate(0, -10px);
+    box-shadow: 10px 10px 100px pink;
+}

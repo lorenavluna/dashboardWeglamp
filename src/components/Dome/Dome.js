@@ -7,12 +7,11 @@ export default function Dome ({title, DomeImage, DomeName} ){
     const dome = DomesList[0];
     return(
         <Card>
-            <article className = "dome">
-                <h2> Nombre {dome.name}</h2>  
-                <p> id = {dome.id} </p>
-                <p> destination :{dome.destination} </p>
-                <p> pax :{dome.pax} </p>
-                <p> price : {dome.prize}</p>
+            <article className="dome">
+                <h2>{dome.name}</h2>  
+                <p>Destino: {dome.destination} </p>
+                <p>PAX: {dome.pax} </p>
+                <p>Precio: {dome.prize}</p>
                 <img src={dome.image} width="60%" alt=""/>
             </article>
         </Card>

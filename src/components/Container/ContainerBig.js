@@ -1,3 +1,4 @@
+import "./ContainerBig.css";
 
 export function ContainerBig ({children}){
     return(
